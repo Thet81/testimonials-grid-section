@@ -22,4 +22,44 @@
 
 	--fw-light : 500;
 	--fw-bold : 600;
+	--border-radius :0.5rem;
+}
+
+.profile {
+	border-radius: 50%;
+	border:2px solid var(--primary-purple-300);
+}
+.cards {
+	background: var(--primary-purple-500);
+	border-radius: var(--border-radius);
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+.card-items {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	border:1px solid black;
+	align-content: center;
+}
+
+.card-items div:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	font-size: var(--primary-fs);
+}
+
+.main{
+	padding: 2rem;
+}
+
+.image-container {
+	overflow: hidden;
+}
+
+image {
+	max-width: 100%;
+	display: block;
 }
