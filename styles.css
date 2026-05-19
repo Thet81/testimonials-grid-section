@@ -115,7 +115,7 @@ image {
 		grid-area: daniel;
 		background: url('./images/bg-pattern-quotation.svg');
 		background-repeat: no-repeat;
-		background-position: top right;
+		background-position: top 10px right 100px;
 		background-color: var(--primary-purple-500);
 	}
 
