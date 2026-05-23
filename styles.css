@@ -34,7 +34,7 @@ body {
 }
 .cards {
 	border-radius: var(--border-radius);
-	padding: 2rem;
+	padding: 1.5rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
@@ -46,7 +46,6 @@ body {
 	align-items: center;
 	align-content: center;
 }
-
 
 .daniel{
 	background-color: var(--primary-purple-500);
@@ -83,9 +82,6 @@ body {
 	gap: 2rem;
 }
 
-.image-container {
-	overflow: hidden;
-}
 
 image {
 	max-width: 100%;
@@ -96,6 +92,7 @@ image {
 	max-width: 85%;
 	margin: 1.5rem auto;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .attribution a {
@@ -127,7 +124,6 @@ image {
 		grid-area: kira;
 		line-height: 1.3;
 		letter-spacing: 1.2;
-		width: 250px;
 	}
 
 	.jeanette {
@@ -136,6 +132,5 @@ image {
 	.patrick {
 		grid-area:patrick;
 	}
-
 
 }

@@ -27,8 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+### Mobile View
+![Mobile View](./screenshot-mobile.png)
 
+### Desktop View
+![Mobile View](./screenshot-desktop.png)
 
 
 ### Links
@@ -37,7 +40,8 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-- I reset css and defined css custom properties.
+- I reset css and defined css custom properties. And then I started the layout using `css grid`.
+
 
 ### Built with
 
@@ -45,15 +49,19 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 
 ### What I learned
+- In this project, I have used both `css-grid` and `css-flex-box`.
+- In this particular project I have to use background image property. 
+- Positioning the background image is easy with css, I just have to tell where and how much the background image away from the particular direction I want just like this.
 
+```css
+  background-position: top 10px right 100px;
+```
 
+- In the above example, I was telling that I want the background image to be 10px from the top and 100px from the right.
 
 ### Continued development
 
@@ -69,8 +77,6 @@ Users should be able to:
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
 
 
 ## Acknowledgments
