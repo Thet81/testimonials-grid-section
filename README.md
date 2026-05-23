@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Thet81/testimonials-grid-section)
+- Live Site URL: [Add live site URL here](https://thet81.github.io/testimonials-grid-section/)
 
 ## My process
 - I reset css and defined css custom properties. And then I started the layout using `css grid`.
@@ -75,8 +75,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Thet81)
 
 
 ## Acknowledgments

@@ -16,6 +16,7 @@
 	--fw-light : 500;
 	--fw-bold : 600;
 	--border-radius :0.5rem;
+	--ff-primary : "Barlow Semi Condensed"
 }
 
 * {
@@ -39,6 +40,12 @@ body {
 	flex-direction: column;
 	gap: 1.5rem;
 	color: var(--neutral-white);
+	font-family: var(--ff-primary);
+}
+
+.cards p{
+	font-weight: var(--fw-light);
+	opacity: 70%;
 }
 .card-items {
 	display: flex;
@@ -76,10 +83,20 @@ body {
 	gap: 0.2rem;
 }
 
+.card-items p:nth-child(1){
+	font-weight: var(--fw-bold);
+	font-size: 0.9rem;
+}
+
+.card-items p:nth-child(2){
+	font-weight: var(--fw-light);
+}
+
 .main{
 	padding: 2rem;
 	display: grid;
 	gap: 2rem;
+	margin: 100px auto;
 }
 
 
@@ -93,6 +110,7 @@ image {
 	margin: 1.5rem auto;
 	text-align: center;
 	font-size: 1.5rem;
+	font-family: var(--ff-primary);
 }
 
 .attribution a {
@@ -101,7 +119,6 @@ image {
 
 @media only screen and (min-width : 768px){
 	.main{
-		margin: 0 auto;
 		max-width: 90%;
 		grid-template-areas: 
 		"daniel daniel daniel jonathan kira"

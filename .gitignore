@@ -40,3 +40,5 @@ npm-debug.log*
 Thumbs.db
 
 ./index.bk.html
+
+./style-guide.md
