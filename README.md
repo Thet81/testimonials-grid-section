@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Thet81/testimonials-grid-section)
-- Live Site URL: [Add live site URL here](https://thet81.github.io/testimonials-grid-section/)
+- Solution URL: [Solution code on github](https://github.com/Thet81/testimonials-grid-section)
+- Live Site URL: [Live site on github](https://thet81.github.io/testimonials-grid-section/)
 
 ## My process
 - I reset css and defined css custom properties. And then I started the layout using `css grid`.
